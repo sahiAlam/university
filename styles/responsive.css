@@ -1,0 +1,167 @@
+/* 
+  Tablet layout 
+*/
+
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+  /* Home */
+  .text_box h1 {
+    font-size: 30px;
+  }
+  .hero_btn {
+    margin-top: 10px;
+  }
+  .nav_links ul li::after {
+    background: #fff;
+  }
+  /* Toggle Menu start */
+  .nav_links {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    background: #f44336;
+    z-index: 10;
+    text-align: left;
+    transition: 0.8s;
+  }
+  .nav_links ul {
+    padding: 20px 35px;
+  }
+  .nav_links ul li {
+    display: block;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
+    margin: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  /* Toggle Menu end */
+  .course {
+    margin-top: 70px;
+  }
+  .course h1 {
+    font-size: 30px;
+  }
+  .course p {
+    font-size: 14px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .course_col {
+    margin: 12px 0;
+  }
+  .campus h1 {
+    font-size: 30px;
+  }
+  .campus p {
+    font-size: 14px;
+  }
+  .campus_col {
+    margin: 12px 0;
+  }
+  .cta h1 {
+    font-size: 30px;
+  }
+  .facilities {
+    margin-top: 70px;
+  }
+  .facilities h1 {
+    font-size: 30px;
+  }
+  .facilities p {
+    font-size: 14px;
+  }
+  .facilities_col img {
+    border-radius: 10px;
+  }
+  .testimonials h1 {
+    font-size: 30px;
+  }
+  .testimonials p {
+    font-size: 14px;
+  }
+
+  /* About Us */
+  .about_us .row {
+    flex-direction: column;
+  }
+  .about_col h1 {
+    font-size: 30px;
+  }
+
+  /* Blog */
+  .sub_header h1 {
+    font-size: 22px;
+  }
+  .blog_left h2 {
+    font-size: 22px;
+  }
+  /* Contact Us */
+  .location {
+    padding: 50px 0;
+  }
+}
+/*
+  Mobile Layout
+*/
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .text_box h1 {
+    font-size: 24px;
+  }
+  .hero_btn {
+    padding: 12px 18px;
+  }
+  .course h1 {
+    font-size: 24px;
+  }
+  .campus h1 {
+    font-size: 24px;
+  }
+  .facilities h1 {
+    font-size: 24px;
+  }
+  .testimonials h1 {
+    font-size: 24px;
+  }
+  .about_col h1 {
+    font-size: 24px;
+  }
+  .cta {
+    height: 50vh;
+  }
+  .hero_btn2 {
+    padding: 12px 24px;
+  }
+  .testimonials_col {
+    flex-direction: column;
+  }
+  .testimonials_col img {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .foot_content {
+    width: 370px;
+  }
+  .foot_content p {
+    font-size: 12px;
+  }
+  /* Blog */
+  .sub_header h1 {
+    font-size: 24px;
+  }
+  /* Contact Us */
+  .location {
+    padding: 50px 0;
+  }
+  .cta h1 {
+    font-size: 26px;
+  }
+}
